@@ -1,4 +1,4 @@
-# CREATING A BACKDOOR WITH SET:
+# EX 07: CREATING A BACKDOOR WITH SET:
 creating a backdoor with SET - Ethical Hacking Techniques course
 
 ## AIM:
@@ -20,69 +20,67 @@ Open terminal and try execute some kali linux commands
 
 ## PROCEDURE AND OUTPUT:
 
-```
-Social Engineering attacks are the various cons used by the hackers to trick people into providing sensitive data to the attackers. 
-The command sudo setoolkit in the prompt gives menu with set prompt:
-```
+
+ Social Engineering attacks are the various cons used by the hackers to trick people into providing sensitive data to the attackers. 
+
+ The command sudo setoolkit in the prompt gives menu with set prompt:
+
 ### OUTPUT:
 ![alt text](ScreenShot/eh1.png)
 
-```
-It displays the following menu and select 2 for Website Attack Vectors:
-```
+
+ It displays the following menu and select 2 for Website Attack Vectors:
+
 ### OUTPUT:
 ![alt text](ScreenShot/eh2.png)
 
-```
-The website Attack Vectors displays the following menu. In this menu3 for Credential Harvester Attack Method is selected:
-```
+
+ The website Attack Vectors displays the following menu. In this menu3 for Credential Harvester Attack Method is selected:
 
 ### OUTPUT:
 ![alt text](ScreenShot/eh3.png)
 
-```
-The Credential Harvester Attack Method displays the following menu. In this menu1 for Web Templates is selected:
-```
+
+ The Credential Harvester Attack Method displays the following menu. In this menu1 for Web Templates is selected:
+
 ### OUTPUT:
 ![alt text](ScreenShot/eh4.png)
 
-```
-It shows the following screen in which the ip address of the attacker need to be given which is the default value:
-```
+
+ It shows the following screen in which the ip address of the attacker need to be given which is the default value:
+
 
 ### OUTPUT:
 ![alt text](ScreenShot/eh5.png)
 
-```
+
 It shows the following screen in which the option Google can be selected
-```
+
 ### OUTPUT:
 ![alt text](ScreenShot/eh6.png)
 
-```
 SET starts my Kali Linux Webserver on port 80, with the fake Google account login page. The setup is done:
-```
+
 ### OUTPUT:
 ![alt text](ScreenShot/eh7.png)
 
-```
+
 In windows IE, on giving the url http://192.168.74.***, the fake Google page is displayed. The victim can enter the username and password
-```
+
 ### OUTPUT:
+
 ![alt text](ScreenShot/eh8.png)
 
-```
 SET logs the information regarding the Google credentials:
-```
+
 ### OUTPUT:
 ![alt text](ScreenShot/eh9.png)
 
-```
+
 SET logs the information in the xml file under /root/.set directory:
-```
+
 ### OUTPUT:
 ![alt text](ScreenShot/eh10.png)
 
-
 ## RESULT:
-The Social Engineering Toolkit (SET) is used to create backdoor is  examined successfully
+The Social Engineering Toolkit (SET) is used to create backdoor is examined successfully
